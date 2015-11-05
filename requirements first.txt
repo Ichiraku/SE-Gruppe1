@@ -1,0 +1,51 @@
+REQUIREMENTS
+
+System Features
+===============
+
+- Programming language shall be Java
+- Program shall run on a remote machine using Apache/Tomcat, so maintenance should be remotely possible
+- The program shall use a RDF-database
+- Program shall have a web based userinterface
+- Program shall have a command line usability
+- Program shall have an interface for html requests like curl
+- Program shall provide REST conform html requests using Java Serlets
+- (A) The program shall use WEKA to classify data
+- (B) The program should use WEKA to cluster data
+- The program shall use WEKA to generate a model of the dataset
+- (A) Program shall take inputs of statistic arguments supplied by a file in .arff format 
+- (B) Program should take inputs of statistic arguments supplied by a file in .csv format 
+- Program should seperate dataset to a 2/3 trainingset and a 1/3 testset
+- Program shall use J48, RandomForest and SMO-algorithms 
+- Users should be able to upload other algorithms
+- Program shall apply algorhytms of Machine Learning and Data Mining which are chosen by the user on these inputs.
+- Output shall be chooseable by the user according to default outputs of the chosen algorythm
+- Runtime of algorythms should be "normal"
+- Programm shall provide a queue for running models due to system performance
+- Program shall provide a login system for users
+- New algorythms shall be possible to be uploaded via .jar files
+- The data transfer shall be secured via https .
+- It should be possible for a member of a Data-Mining startup to learn using this programm in appropiate time.
+- There should be several ways of visualising the data.
+- It shall be possible to run the database on different servers of different companies.
+- Server shall be adressed with SPARQL
+- Target group should be data analysts who want to improve data processes
+- Program should suggest a former calculation in case of repeatedly uploading the exact same data
+
+Usermanagement Features
+=======================
+
+- Anonymous users shall be allowed within restricted data space
+	- Data of anonymous users should be erased after 30 days
+	- Output as tree should be limites to depth 10
+- Program shall provide usermanagement (admins, groupadmins, normal users)
+- Usermanagement shall provide users to be in a group and share their stored data
+
+Database Features
+=================
+
+- Inputs and arguments of the algorythm shall be stored in database.
+- Program shall classify datasets to packages (Das Gleiche wie drunter?)
+- The programm shall be focused on classification of the data. (Das Gleiche wie drüber?)
+- Data-management shall provide read/write permissions to datasets
+
